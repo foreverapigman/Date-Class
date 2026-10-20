@@ -22,6 +22,7 @@ int main()
     cout << "\nYour date: " << date.formatNumeric() << endl;
     cout << "Long format: " << date.formatLong() << endl;
     cout << "European format: " << date.formatEuropean() << endl;
+    cout << "Leap year (1=yes): " << date.isLeapYear() << endl;
 
     return 0;
 }
